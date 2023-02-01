@@ -7,22 +7,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="file://$USER_HOME$/h2" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="file://$USER_HOME$/h2/docs/javadoc" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="file://$USER_HOME$/h2/src/java10/src" />
-          <root url="file://$USER_HOME$/h2/src/java9/src" />
-          <root url="file://$USER_HOME$/h2/src/main" />
-          <root url="file://$USER_HOME$/h2/src/test" />
-          <root url="file://$USER_HOME$/h2/src/tools" />
-        </SOURCES>
-      </library>
-    </orderEntry>
+    <orderEntry type="library" exported="" name="h2-2.1.214" level="project" />
   </component>
 </module>
