@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:h2:tcp://localhost:9092/default</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="TP1_h23" uuid="e28d3e54-fa60-4a99-a2ae-d2d04ec4c530">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:file:~/TP1_h23</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
